@@ -1,0 +1,10 @@
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .5);
+}
+p{
+    text-align: center;
+}
+img .carousel-item{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}

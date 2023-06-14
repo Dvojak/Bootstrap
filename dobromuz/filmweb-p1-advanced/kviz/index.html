@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="dist/css/lightbox.css" rel="stylesheet" />
+  <link href="../css/my2.css" rel="stylesheet">  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark l">
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link " href="../index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../fotogalerie/index.html">Fotogalerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Kvíz</a>
+            </li>
+          </ul>
+      </div>
+  </nav>  
+  <header class="bg-info p-5 theme">
+    <!-- place navbar here -->
+    <h1 class="text-center text-white">Kvíz Džona Dobromuže</h1>
+  </header>  
+  <main class="container">
+    
+    <form method="post">
+        <!-- Otázka 1 -->
+        <p class="alert alert-warning">1. Jaké je jméno "herce", který hrál roli Džona Dobromuže?</p>
+        <div class="row mb-3">
+          <label for="otazka1" class="col-sm-3 col-form-label">Jméno a příjmení osoby</label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" id="otazka1" name="otazka1" placeholder="Je mezi váma">
+          </div>
+        </div>
+        <p class="collapse alert alert-success">Správná odpověd: <b>Walter Oboňa</b></p>
+        <!-- Otázka 2 -->
+        <p class="alert alert-warning">2. Kolikátého byl napsaný tento článek?</p>
+        <div class="row mb-3">
+          <label for="otazka2" class="col-sm-3 col-form-label">Den uvedení</label>
+          <div class="col-sm-9">
+            <input type="number" class="form-control" id="otazka2" name="otazka2" value="1" max="30" min="1" >
+          </div>
+        </div>
+        <p class="collapse alert alert-success"> Možné odpovědi: <b>14</b></p>
+         <!-- Otázka 3 -->
+         <p class="alert alert-warning">3. Jaká je zkratka společnosti Džona Dobromuže?</p>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Zkratky</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="otazka3" id="Hardboiled" value="Hardboiled" checked>
+              <label class="form-check-label" for="gridRadios1">
+                DPI
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="otazka3" id="Faceoff" value="Faceoff">
+              <label class="form-check-label" for="gridRadios2">
+                DPD
+              </label>
+            </div>
+        
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="otazka3" id="Rock" value="The rock">
+          <label class="form-check-label" for="gridRadios2">
+            DDI
+          </label>
+        </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="otazka3" id="raid" value="Raid: redemption">
+              <label class="form-check-label" for="gridRadios3">
+                DLP
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <p class="collapse alert alert-success"> Správná odpověd: <b>DDI</b></p>
+         <!-- Otázka 4 -->
+         <p class="alert alert-warning">4. Je Dřevák Skočdopole jeden z členů společnosti?</p>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="otazka4">
+              <label class="form-check-label" for="gridCheck1">
+                Ano, je to pravda
+              </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="otazka4">
+                <label class="form-check-label" for="gridCheck1">
+                  Ne, Není to pravda
+                </label>
+              </div>
+          </div>
+        </div>
+        <p class="collapse alert alert-success">Správná odpověď: <b>Ano, je to pravda.</b></p>
+        <button type="Button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target=".collapse" >Ukázat odpovědi</button>
+      </form>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <p>&copy; 2023 - Mrož "Dvojak" Varel773, IT1</p>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
